@@ -25,3 +25,16 @@ dict2 = {"full_name": "milan kandel", "father_name": "abcd"}
 
 result = merge_dicts(dict1, dict2)
 print(f"after the operation dictionary is {result}\n")
+
+
+# another method
+
+dict1 = {"full_name": "rajan kandel", "college_name": "hcoe"}
+dict2 = {"full_name": "milan kandel", "father_name": "abcd"}
+
+dict_detail = {
+    **dict1,
+    **dict2,
+    "height": "3.45ft"
+}
+print(dict_detail)

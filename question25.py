@@ -1,3 +1,9 @@
+"""
+Write a function remove_duplicates(input_list) that takes a list as an 
+argument and returns a new list with duplicates removed using a set.
+"""
+
+
 def remove_duplicates(input_list):
 
     unique_elements = list(set(input_list))
